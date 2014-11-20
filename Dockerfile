@@ -6,10 +6,10 @@
 ############################################################
 
 # Set the base image to use to Ubuntu
-FROM ubuntu
+FROM dockerfile/ubuntu
 
 # Set the file maintainer (your name - the file's author)
-MAINTAINER Borja Burgos <borja@tutum.co>
+MAINTAINER Andrey Cizov <acizov@gmail.com>
 
 # Update the default application repository sources list
 RUN apt-get update
